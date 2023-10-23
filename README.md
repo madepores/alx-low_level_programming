@@ -1,1 +1,1 @@
-My first day in c programming
+0x09. C - Static libraries
