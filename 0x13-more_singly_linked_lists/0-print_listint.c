@@ -1,4 +1,4 @@
-include "lists.h"
+#include "lists.h"
 /**
 * print_listint - print the int data in a singly linked list
 * @h: the head pointer to the list
@@ -10,7 +10,7 @@ size_t count;
 if (h == NULL)
 return (0);
 for (count = 0; h != NULL; count++)
-{ I
+{
 printf("%d\n", h->n);
 h = h->next;
 }
