@@ -4,7 +4,12 @@ OBJ = $(SRC:.c=.o)
 NAME = school
 RM = rm -f
 
+<<<<<<< HEAD
 all: $(OBJ) $(OBJ) -o $(NAME)
+=======
+all: $(OBJ)
+	$(CC) $(OBJ) -o $(NAME)
+>>>>>>> 7444c3d125bf2f80cafb395eb65a0333f2a9db17
 
 clean:
 	$(RM) *~ $(NAME)

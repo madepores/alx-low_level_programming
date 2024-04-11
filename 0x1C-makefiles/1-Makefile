@@ -1,4 +1,8 @@
 CC = gcc
 SRC = main.c school.c
 all: $(SRC)
+<<<<<<< HEAD
 	$(CC) $(SRC)-o school
+=======
+	$(CC) $(SRC) -o school
+>>>>>>> 7444c3d125bf2f80cafb395eb65a0333f2a9db17

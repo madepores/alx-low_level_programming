@@ -1,15 +1,26 @@
 CC = gcc
 SRC = main.c school.c
+<<<<<<< HEAD
 OBJ = $(SRC:.o)
 NAME = school
 RM = rm -f
 CFLAGS = -wall -werror -wextra -pedantic
+=======
+OBJ = $(SRC:.c=.o)
+NAME = school
+RM = rm -f
+CFLAGS = -Wall -Werror -Wextra -pedantic
+>>>>>>> 7444c3d125bf2f80cafb395eb65a0333f2a9db17
 
 all: $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
 
 clean:
+<<<<<<< HEAD
 	$(RM) $(NAME)
+=======
+	$(RM) *~ $(NAME)
+>>>>>>> 7444c3d125bf2f80cafb395eb65a0333f2a9db17
 
 oclean:
 	$(RM) $(OBJ)
